@@ -6,7 +6,7 @@ const routes=require("./routes");
 
 const app=express();
 
-mongoose.connect('mongodb+srv://andrelouis:andrelouis@cluster-1ypgi.mongodb.net/test?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv:/',{
     useNewUrlParser:true,
     useUnifiedTopology:true,
 });
